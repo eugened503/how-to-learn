@@ -77,7 +77,7 @@
 .description {
     display: flex;
     justify-content: center;
-    margin-top: 100px; 
+    margin: 100px 0; 
 }
 
 .two-columns {
@@ -117,7 +117,7 @@
 
 .section-title {
     width: 60%;
-    margin: 100px auto 0px;
+    margin: 0 auto;
     text-align: center;
     line-height: 69px;
     font-size: 60px;
@@ -149,11 +149,11 @@
     line-height: 1.15;
     font-size: 24px;
     font-weight: bold;
-    margin-top: 0;
+    margin: 0 0 20px;
 }
 
 .table__text {
-    margin-top: 20px;
+    margin: 20px 0 0;
     line-height: 1.2;
     font-size: 18px;
     font-weight: normal;
@@ -215,26 +215,14 @@
 
 .section-title_theme_dark {
     color: white;
-    text-align: center;
-    margin-top: 0;
-    width: 60%;
-    line-height: 69px;
-	font-size: 60px;
-	font-weight: bold;
 }
 
 .section-subtitle_theme_dark {
     color: white;
-    text-align: center;
-    width: 60%;
-    line-height: 34px;
-	font-size: 24px;
-	font-weight: normal;
 }
 
 .table__cell_theme_dark {
     width: 200px;
-    color: white;
     margin-right: 0;
     margin-top: 80px;
     z-index: 2;  
@@ -248,21 +236,15 @@
 	width: 877px;
     z-index: 1;
     background-image: url(../images/triangle.svg);
+    background-size: contain;
 }
 
 .table__heading_theme_dark {
-    line-height: 1.15;
-	font-size: 24px;
-	font-weight: bold;
-	margin: 0;
-    padding-top: 0;
+    color: white;
 }
 
 .table__text_theme_dark {
-	line-height: 1.2;
-	font-size: 18px;
-	font-weight: normal;
-    margin-bottom: 0;
+    color: white;
 }
 
 .footer {
@@ -270,6 +252,7 @@
   min-height: 350px;
   display: flex;
   justify-content: center;
+  padding: 60px 0 40px 0;
 }
 
 .footer__columns {
@@ -359,7 +342,7 @@ a:hover {
 	color: white;
 }
 
-.footer__social-icon{
+.footer__social-icon {
 	margin-right: 10px;
 	height: 16px;
 	width: 16px;
