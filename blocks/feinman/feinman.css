@@ -9,7 +9,7 @@
 	height: 790px;
 	display: flex;
     flex-direction: column;
-    background-image: url(../../../images/feinman.png);
+    background-image: url(../../images/feinman.png);
     background-repeat: no-repeat;
     background-position: bottom left;
 }
